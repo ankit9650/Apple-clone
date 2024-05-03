@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+#store{
+    width: auto;
+    height: 100px;
+
+}
+
+#store:hover {
+   letter-spacing:0.1cap;
+   
+   transition:  1s;
+  }
