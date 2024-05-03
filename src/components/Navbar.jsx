@@ -4,7 +4,7 @@ function navbar(Navbar) {
   return (
     <div>
         <nav
-        className=' fixed justify-center space-x-10 bg-zinc-900 flex align-middle  w-full py-3 text-white '
+        className='  justify-center space-x-10 bg-zinc-900 flex align-middle  w-full py-3 text-white '
         > 
             <img src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-apple-mac-vector-logo-download-23.png"
             className='w-6'

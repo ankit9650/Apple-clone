@@ -2,9 +2,7 @@ import { useState } from 'react'
 import Card from './components/Card'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
-
-
+import Carousel from './components/Carousel'
 
 
 function App() {
@@ -15,36 +13,33 @@ function App() {
     price:"starting from 1,250,000"
   }
 
+  
+
+
+
 
 
   return (
     <>
+  
       <div>
-      <Navbar/><br />
+      <Navbar/> 
+          
       
-      </div><br />
 
 
       <div
-      className='text-white text-s flex justify-center p-3 bg-zinc-800 '
+      className='text-white text-s flex justify-center p-2 bg-zinc-800 '
       >
         <p>Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.* Plus No Cost EMI from most leading banks.‡ <a href='#' className='text-blue-500'>Shop now.</a></p>
-      </div>
-
-
-      <div 
-      className='bg-[url("https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png")] h-screen w-full bg-cover bg-center p-14' >
-        <h1 className='text-white text-center tracking-wider text-4xl font-sans font-bold'>iPhone 15 pro <br /><span className='text-2xl font-normal font-sans tracking-normal'>Titanium.So strong.So light.So pro.</span></h1>
-      
-      </div>
-      
+      </div>     
       <div className= 'pb-3' >
       <h1
-      className='text-left text-4xl font-sans font-semibold mt-5 ml-32 text-white ' id='store'
+      className='text-left text-4xl font-sans font-semibold mt-5 ml-32 text-white ' id='typing-demo'
       >
        Store.The best way to buy the <br />products you love.
        </h1>
-      
+       <Carousel/>
         
 
      <div className='flex space-x-6 justify-center mt-8'>
@@ -65,6 +60,7 @@ function App() {
 
      </div>
      <Footer/>
+     </div>
      </div>
     </>
   )
