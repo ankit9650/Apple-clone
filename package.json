@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://<ankit9650>.github.io/<Apple-clone>",
+  "homepage": "https://ankit9650.github.io/Apple-clone",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
