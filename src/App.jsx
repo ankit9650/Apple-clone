@@ -3,7 +3,7 @@ import Card from './components/card/Card'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Carousel from './components/carousel/Carousel'
-
+import grid from './components/grid/grid'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,27 +21,31 @@ function App() {
 
   return (
     <>
-  
+      {/* Navbar section */}
       <div>
       <Navbar/> 
           
       
 
-
+      {/* heading section */}
       <div
       className='text-white text-s flex justify-center p-2 bg-zinc-800 '
       >
         <p>Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.* Plus No Cost EMI from most leading banks.‡ <a href='#' className='text-blue-500'>Shop now.</a></p>
-      </div>     
+      </div>
+
+      {/* Card heading section */}     
       <div className= 'pb-3' >
       <h1
       className='text-left text-4xl font-sans font-semibold mt-5 ml-32 text-white ' id='typing-demo'
       >
        Store.The best way to buy the <br />products you love.
        </h1>
+       
+       {/* Carousel section */}
        <Carousel/>
-        
-
+      
+      {/* Card section  */}
      <div className='flex space-x-6 justify-center mt-8'>
       <Card  Name="Macbook Pro 16GB" image={"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1663415332/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245227_0_ton7gy.png?tr=w-600"} 
         price={"Starting from 2,50,000"}
@@ -55,10 +59,14 @@ function App() {
       <Card Name="ipad Air 16GB" image={"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-air-storage-select-202207-pink-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=95&.v=1670879027965"}
          price={"Starting from 1,40,000"}
       />
+      </div>
+      
+      
+      {/* Grid Section  */}
+      <Grid/>
 
-    
-
-     </div>
+      
+      {/* Footer section */}
      <Footer/>
      </div>
      </div>
