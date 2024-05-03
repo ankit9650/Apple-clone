@@ -3,7 +3,7 @@ import Card from './components/card/Card'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Carousel from './components/carousel/Carousel'
-import grid from './components/grid/grid'
+import Gridimg from './components/gridimg/Gridimg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -63,8 +63,7 @@ function App() {
       
       
       {/* Grid Section  */}
-      <Grid/>
-
+     <Gridimg/>
       
       {/* Footer section */}
      <Footer/>
