@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Card from './components/Card'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Carousel from './components/Carousel'
+import Card from './components/card/Card'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
+import Carousel from './components/carousel/Carousel'
 
 
 function App() {
