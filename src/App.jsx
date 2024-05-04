@@ -47,7 +47,7 @@ function App() {
       {/* Grid Section  */}
      
     <div className="flex justify-center">
-     <Gridimg imageUrl="https://eimg.pravda.com/images/doc/1/d/1d7eebf-apple-iphone-14-iphone-14-plus-hero-220907-full-bleed-image.jpg.75bf3f0-large-2x.jpg" text="Square 1" />
+     <Gridimg imageUrl="https://images.macrumors.com/article-new/2023/09/iPhone-15-General-Feature-Black.jpg" text="Relax it's iPhone."  explain="Dependebly Durable" />
      <Gridimg imageUrl="https://expatlifeindonesia.com/wp-content/uploads/wwdc-2023-vision-pro-eyesight.png" text="Square 1" />
      </div> 
      <div className="flex justify-center">
