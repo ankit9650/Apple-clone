@@ -6,7 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      spacing: {
+        '33': '32rem',
       
+      }
     },
   },
   plugins: [],
