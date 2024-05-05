@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import Card from './components/card/Card'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
@@ -11,13 +11,27 @@ function App() {
     Name:"Macbook Pro 16GB",
     image:"https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60",
     price:"starting from 1,250,000"
-  }
-  
-    const images = [
-      'https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png',
-      'https://www.apple.com/v/macbook-pro-14-and-16/a/images/overview/hero/intro__ewz1ro7xs14y_large.jpg',
-      'https://images.unsplash.com/photo-1558126319-c9feecbf57ee?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  } 
+
+  const slides = [
+    {
+      image: "https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png",
+      text: "iPhone 15 pro ",
+      explain:"Titanium. So strong. So light. So pro. "
+    },
+    {
+      image: "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg",
+      text: "iPhone 15 Pro",
+      explain:"Titanium. So strong. So light. So pro. "
+    },
+    {
+      image: "https://images.unsplash.com/photo-1558126319-c9feecbf57ee?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      text: "iPhone 15 Pro",
+      explain:"Titanium. So strong. So light. So pro. "
+    },
     ];
+
+
 
 
 
@@ -38,8 +52,7 @@ function App() {
 
       {/* Carousel section */}
       <div className="container mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Image Carousel</h1>
-      <Carousel images={images} />
+      <Carousel slides ={slides.image} text={slides.text} explain={slides.explain} />
     </div>
    
       
@@ -52,7 +65,7 @@ function App() {
      </div> 
      <div className="flex justify-center">
      <Gridimg imageUrl="https://www.cnet.com/a/img/resize/dcf497c2d0ac684974ad3bf9904cbcb9e00e92d9/hub/2024/03/06/725a8e72-aa72-439a-9357-af161b30f3c9/apple-macbook-air-m3-2024-14.jpg?auto=webp&fit=crop&height=362&width=644" text="Square 1" />
-     <Gridimg imageUrl="https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/tile/Apple-Watch-S9-hero-230912.jpg.landing-big_2x.jpg" text="Square 1" />
+     <Gridimg imageUrl="https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-10th-gen-hero-221018.jpg.og.jpg?202404111950" text="Square 1" />
      </div> 
      
      {/* Card heading section */}     
