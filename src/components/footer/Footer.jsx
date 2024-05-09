@@ -86,11 +86,11 @@ A subscription is required for Apple TV+.
           fill="black"
         ></path>
       </svg>
-      <span class="ml-4 text-lg font-bold">DevUI</span>
+      <span class="ml-4 text-lg font-bold text-gray-500">Apple-IN</span>
     </div>
     <div class="mt-4 md:mt-0">
       <p class="text-sm font-medium text-gray-500 flex items-center justify-center">
-        © 2023 DevUI. All rights reserved.
+        © 2023 Apple-IN. All rights reserved.
       </p>
     </div>
   </div>

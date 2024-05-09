@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer'
 import Carousel from './components/carousel/Carousel'
 import Gridimg from './components/gridimg/Gridimg'
 
+
 function App() {
   const [count, setCount] = useState(0)
   let products={
@@ -60,12 +61,12 @@ function App() {
       {/* Grid Section  */}
      
     <div className="flex justify-center">
-     <Gridimg imageUrl="https://images.macrumors.com/article-new/2023/09/iPhone-15-General-Feature-Black.jpg" text="Relax it's iPhone."  explain="Dependebly Durable" />
-     <Gridimg imageUrl="https://expatlifeindonesia.com/wp-content/uploads/wwdc-2023-vision-pro-eyesight.png" text="Square 1" />
+     <Gridimg imageUrl="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg" text="Relax it's iPhone."  explain="Dependebly Durable" />
+     <Gridimg imageUrl="https://expatlifeindonesia.com/wp-content/uploads/wwdc-2023-vision-pro-eyesight.png" text="Apple Vision Pro" explain={"Welcome to the era of spatial computing."} />
      </div> 
      <div className="flex justify-center">
-     <Gridimg imageUrl="https://www.cnet.com/a/img/resize/dcf497c2d0ac684974ad3bf9904cbcb9e00e92d9/hub/2024/03/06/725a8e72-aa72-439a-9357-af161b30f3c9/apple-macbook-air-m3-2024-14.jpg?auto=webp&fit=crop&height=362&width=644" text="Square 1" />
-     <Gridimg imageUrl="https://www.apple.com/newsroom/images/product/ipad/standard/Apple-iPad-10th-gen-hero-221018.jpg.og.jpg?202404111950" text="Square 1" />
+     <Gridimg imageUrl="https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/06/Best-MacBook-1.jpg" text="MacBook Pro" explain={"Mind-blowing.Head-turning."} />
+     <Gridimg imageUrl="https://images.macrumors.com/t/7hZCaaMo4T4JV6eLoJX2ou4lyqI=/1600x0/article-new/2021/05/ipad-pro-m1-feature.jpg" text="iPad" explain={"Touch, draw, and type on one magical device."} />
      </div> 
      
      {/* Card heading section */}     
