@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import Buyiphone from "../iphone15/Buyiphone";
 
 const slides = [
@@ -54,11 +54,12 @@ const Carousel = () => {
             <img src={slide.image} alt={`Slide ${index}`} className="w-full" />
             <div className="absolute text-3xl font-sans text-center font-bold left-33 top-3/4  text-white py-2 px-4">
               {slide.text}<br /> {slide.explain}<br />        
-           
+              <Link to="/Buyiphone">
               <button 
               type="button"          
               
-              class=" mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buy now</button>
+              className=" mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buy now</button>
+              </Link>
             </div>
             
             

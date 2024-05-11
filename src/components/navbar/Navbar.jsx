@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function navbar(Navbar) {
+function Navbar(Navbar) {
   return (
     <div>
         <nav
@@ -47,4 +47,4 @@ function navbar(Navbar) {
   )
 }
 
-export default navbar
+export default Navbar

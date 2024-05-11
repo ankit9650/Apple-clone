@@ -17,22 +17,24 @@ function App() {
   const slides = [
     {
       image: "https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png",
-      text: "iPhone 15 pro ",
-      explain:"Titanium. So strong. So light. So pro. "
+      text: "iPhone 15 Pro",
+      explain:"Titanium. So strong. So light. So pro. ",
+      button:"Buy now"
     },
     {
-      image: "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.large.jpg",
-      text: "iPhone 15 Pro",
-      explain:"Titanium. So strong. So light. So pro. "
+      image: "https://www.apple.com/v/macbook-pro-13/p/images/overview/hero_endframe__bsza6x4fldiq_large_2x.jpg",
+      text: "  MacBook Pro ",
+      explain:" With M3, M3 Pro or M3 Max chip ",
+      button:"Buy now"
     },
     {
-      image: "https://images.unsplash.com/photo-1558126319-c9feecbf57ee?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      text: "iPhone 15 Pro",
-      explain:"Titanium. So strong. So light. So pro. "
+      image: "https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/tile/Apple-Watch-S9-hero-230912.jpg.landing-big_2x.jpg",
+      text: "Introducing Apple Watch",
+      explain:"Series 9 Smarter. Brighter. Mighter",
+      button:"Buy now"
     },
-    ];
-
-
+  ];
+  
 
 
 
@@ -40,7 +42,7 @@ function App() {
     <>
       {/* Navbar section */}
       <div>
-      <Navbar/> 
+      
           
       
 
@@ -53,7 +55,7 @@ function App() {
 
       {/* Carousel section */}
       <div className="container mx-auto">
-      <Carousel slides ={slides.image} text={slides.text} explain={slides.explain} />
+      <Carousel slides ={slides.image} text={slides.text} explain={slides.explain} button={slides.button}/>
     </div>
    
       
@@ -98,7 +100,7 @@ function App() {
 
 
       {/* Footer section */}
-     <Footer/>
+    
      </div>
      </div>
     </>
