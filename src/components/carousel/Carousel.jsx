@@ -40,6 +40,8 @@ const Carousel = () => {
     setCurrentSlide(index);
   };
 
+  
+
   return (
     <div className="relative">
     <div className="overflow-hidden">
@@ -67,7 +69,7 @@ const Carousel = () => {
           
         ))}
       </div>
-      
+        
     </div>
     <div className="absolute inset-x-0 bottom-0 flex justify-center">
       {slides.map((_, index) => (

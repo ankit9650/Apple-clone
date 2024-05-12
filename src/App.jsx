@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Carousel from './components/carousel/Carousel'
 import Gridimg from './components/gridimg/Gridimg'
+import Buyiphone from './components/iphone15/Buyiphone'
 
 
 function App() {
@@ -19,19 +20,19 @@ function App() {
       image: "https://www.apple.com/v/iphone-15-pro/c/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png",
       text: "iPhone 15 Pro",
       explain:"Titanium. So strong. So light. So pro. ",
-      button:"Buy now"
+      // button:"Buy now"
     },
     {
       image: "https://www.apple.com/v/macbook-pro-13/p/images/overview/hero_endframe__bsza6x4fldiq_large_2x.jpg",
       text: "  MacBook Pro ",
       explain:" With M3, M3 Pro or M3 Max chip ",
-      button:"Buy now"
+      // button:"Buy now"
     },
     {
       image: "https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/tile/Apple-Watch-S9-hero-230912.jpg.landing-big_2x.jpg",
       text: "Introducing Apple Watch",
       explain:"Series 9 Smarter. Brighter. Mighter",
-      button:"Buy now"
+      // button:{Buyiphone}
     },
   ];
   
@@ -47,11 +48,7 @@ function App() {
       
 
       {/* heading section */}
-      <div
-      className='text-white text-s flex justify-center p-2 bg-zinc-800 '
-      >
-        <p>Save up to ₹8000.00 instantly on eligible products with HDFC Bank Credit Cards.* Plus No Cost EMI from most leading banks.‡ <a href='#' className='text-blue-500'>Shop now.</a></p>
-      </div>
+      
 
       {/* Carousel section */}
       <div className="container mx-auto">
