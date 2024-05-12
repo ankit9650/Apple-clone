@@ -17,20 +17,26 @@ function Buyiphone() {
     {/* Heading section */}
 	<div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			<h1 className="text-4xl font-bold leading-none sm:text-5xl">iPhone 15 <br />
+			<h1 className="text-4xl font-bold leading-none sm:text-5xl">iPhone<span className='from-blue-600 via-blue-400 to-blue-900 bg-gradient-to-r bg-clip-text text-transparent '>15</span> <br />
       Designed to be <span className="dark:text-blue-600"> loved.</span>
 			</h1>
       {/* variants section */}
-      <div className="mt-7  items-center rounded-md border ">    
-      <Iphonecard Variant={"iPhone 15 pro "} Display={"15.5 cm (6.1)display"} Emi={"From ₹5621.00/mo.Per Month or ₹134900.00"}/>
+      <h2 className='mt-6 text-2xl font-bold leading-none sm:text-2xl'>Model. <span className='text-gray-500'>Which is best for you?</span> </h2>
+      <div className="mt-1  items-center rounded-md border ">    
+      <Iphonecard Variant={"iPhone 15 pro "} Display={"15.5 cm (6.1)display"} Emi={"From ₹5621.00/mo. Per Month or ₹134900.00"}/>
       <div className=" items-center rounded-md border ">  
-      <Iphonecard Variant={"iPhone 15 pro max"} Display={"15.5 cm (6.1)display"} Emi={"From ₹5621.00/mo.Per Month or ₹134900.00"}/>
+      <Iphonecard Variant={"iPhone 15 pro max"} Display={"17.0 cm (6.7)display"} Emi={"From ₹6662.00/mo. Per Month or ₹159900.00"}/>
        </div></div>
 
-      {/* Emi line */}
-			<p className="mt-6 mb-8 text-lg sm:mb-12">From ₹5621.00/mo.Per Month for 24 mo. with No Cost EMI with selected banks or ₹134900.00			
-			</p>
-
+      {/* Storage line */}
+			<h2 className='mt-6 text-2xl font-bold leading-none sm:text-2xl'>Storage. <span className='text-gray-500'>How much space do you need?</span> </h2>
+      <div className="mt-1 flex flex-row  items-center rounded-md border ">    
+      <Iphonecard Variant={"256 GB"}  Emi={"From ₹6662.00/mo.Per Month or ₹159900.00"}/>
+      <Iphonecard Variant={"512 GB"} Display={"17.0 cm (6.7)display"} Emi={"From ₹7496.00/mo.Per Month or ₹179900.00"}/>
+      </div>
+      <div className="mt-1 flex flex-row  items-center rounded-md border ">    
+      <Iphonecard Variant={"1 TB"}  Emi={"From ₹8329.00/mo.Per Month or ₹199900.00"}/>      
+      </div>
 
 
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
@@ -39,7 +45,7 @@ function Buyiphone() {
 			</div>
 		</div>
 		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-			<img src="https://reapp.com.gh/wp-content/uploads/2023/12/81uHhPfJhhL._AC_SL1500_.jpg" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+			<img src="src\components\iphone15\[CITYPNG.COM]Apple iPhone 15 All Colors HD PNG - 5000x5000.png" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
 		</div>
 	</div>
 </section> 
