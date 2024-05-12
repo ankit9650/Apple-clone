@@ -45,7 +45,7 @@ function Buyiphone() {
 			</div>
 		</div>
 		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-			<img src="src\components\iphone15\[CITYPNG.COM]Apple iPhone 15 All Colors HD PNG - 5000x5000.png" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+			<img src="src\components\iphone15\[CITYPNG.COM]Apple iPhone 15 All Colors HD PNG - 5000x5000.png" alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-33 2xl:h-33" />
 		</div>
 	</div>
 </section> 

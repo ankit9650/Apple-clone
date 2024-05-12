@@ -6,13 +6,15 @@ import Layout from './components/Layout/Layout'
 import './index.css'
 import App from './App'
 import Buyiphone from './components/iphone15/Buyiphone'
+import Buymac from './components/Buymac/Buymac'
 
 const router =createBrowserRouter(
   createRoutesFromElements(
     <Route path='' element={<Layout/>}>
      <Route path='/' element={<App/>}/>        
         <Route path='/Buyiphone' element={<Buyiphone/>}/>
-      
+        <Route path='/Buymac' element={<Buymac/>}/>
+        
     </Route>
   )
 )

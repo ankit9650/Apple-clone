@@ -9,6 +9,9 @@ export default {
       spacing: {
         '33': '32rem',
       
+      },fontFamily: {
+        'sr': 'SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;',
+      
       }
     },
   },
