@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       {/* Navbar section */}
-      <div>
+      <div >
       
           
       

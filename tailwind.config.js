@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -10,7 +11,12 @@ export default {
         '33': '32rem',
       
       },fontFamily: {
-        'sr': 'SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;',
+        'Cedarville_Cursive':['Cedarville Cursive', 'sans-serif']
+       
+        
+      
+      },width: {
+        '700': '64rem;',
       
       }
     },
