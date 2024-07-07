@@ -2,15 +2,20 @@ import React,{useState} from 'react'
 import Iphonecard from './Iphonecard'
 
 
-
+  
 
 function Buyiphone() {
+ 
+  
   const [count, setCount] = useState(0)
   let Variants={
     Variant:"iPhone 15 pro",
     Emi:"From ₹5621.00/mo.Per Month or ₹134900.00",
     Display:"15.5 cm (6.1)display"
-  } 
+  
+} 
+
+
   return (
     <>
   <section className="dark:bg-gray-100 dark:text-gray-800">
@@ -40,7 +45,7 @@ function Buyiphone() {
 
 
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-blue-600 dark:text-gray-50">Buy now</a>
+				<button href="#" className="px-8 mt-3 py-3 text-lg font-semibold rounded dark:bg-blue-600 dark:text-gray-50">Buy now</button>
 				
 			</div>
 		</div>
@@ -58,4 +63,4 @@ function Buyiphone() {
   )
 }
 
-export default Buyiphone
+export default Buyiphone;

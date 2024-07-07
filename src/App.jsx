@@ -92,8 +92,7 @@ function App() {
          price={"Starting from 1,40,000"}
       />
       </div>
-      
-      
+     
 
 
       {/* Footer section */}
